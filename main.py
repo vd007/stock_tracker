@@ -3,8 +3,7 @@ from slackbot import buy_call
 
 def main():
     print("At your service sir")
-    stocks = ['IFCI:23','SBIN:248','ICICIBANK:250','INFY:930','JUBLFOOD:900']
-    #stocks = ['INFY:930', 'JUBLFOOD:900']
+    stocks = ['IFCI:23','SBIN:248','ICICIBANK:250','INFY:930','JUBLFOOD:900','JUSTDIAL:380','RELIANCE:1000']
     for index in range(len(stocks)):
         symbol,val= stocks[index].split(":")
         data = scrapper(symbol)
