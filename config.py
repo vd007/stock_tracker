@@ -1,0 +1,1 @@
+stock_analyst_slack_bot="slack api key"
